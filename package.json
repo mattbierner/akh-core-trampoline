@@ -1,0 +1,27 @@
+{
+    "name": "akh.core.trampoline",
+    "version": "0.0.0",
+    "description": "Akh trampoline for tail calls",
+    "author": "Matt Bierner",
+    "license": "MIT",
+    "keywords": [
+        "akh",
+        "trampoline",
+        "trail"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mattbierner/akh-core-trampoline.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mattbierner/akh-core-trampoline/issues"
+    },
+    "main": "index.js",
+    "devDependencies": {
+        "chai": "*",
+        "mocha": "*"
+    },
+    "scripts": {
+        "test": "mocha ./tests"
+    }
+}
